@@ -4,11 +4,6 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <title>My Resume</title>
-    <style>
-        body { font-family: Arial, sans-serif;}
-        img { width: 300px; height: auto; }
-        .section { margin-bottom: 30px; }
-    </style>
 </head>
 
 <body>
@@ -26,69 +21,62 @@
     </header>
 
     <main style="text-align: center;">
-        <img src="fotoperso.jpeg" alt="My photo" style="display: block; margin: 0 auto;">
+        <img src="fotoperso.jpeg" alt="Personal photo" style="display: block; margin: 0 auto;">
         <div class="section">
-            <h1>CV Esleider Leandro Marin Parra</h1>
+            <h1> <span>Esleider Leandro Marin Parra</span></h1>
         </div>
 
         <div class="section" id="summary">
             <h2>Professional Summary</h2>
-            <ul>
-                <li>I am a junior programmer passionate about software development. <br>With basic knowledge in Python, Java, and JavaScript. <br>Seeking opportunities to learn and grow in the tech world.</li>
-            </ul>
+            <p>I am a junior programmer passionate about software development.<br>With basic knowledge in Python, Java, and JavaScript.<br>Looking for opportunities to learn and grow in the tech world.</p>
         </div>
 
-        <div class="section">
-            <style>
-                .section img {
-                    width: 150px;
-                }
-            </style>
+        <div class="section" id="Experience">
             <h2>Work Experience</h2>
             <h3>RIWI - Junior Developer (2024 - Present)</h3>
             <ul>
                 <li>Developed web applications using Python and JavaScript</li>
-                <li>Collaborated in a team to create technological solutions</li>
+                <li>Collaborated with a team to create tech solutions</li>
                 <li>Performed code quality testing</li>
             </ul>
-            <img src="l1.png" alt="1">
-            <img src="l2.png" alt="2">
-            <img src="l3.png" alt="3">
-            <img src="l4.png" alt="4">
-            <img src="l7.png" alt="5">
+            <img src="l1.png" alt="Screenshot 1">
+            <img src="l2.png" alt="Screenshot 2">
+            <img src="l3.png" alt="Screenshot 3">
+            <img src="l4.png" alt="Screenshot 4">
+            <img src="l7.png" alt="Screenshot 5">
         </div>
-
+ 
         <div class="section" id="projects">
             <h2>My Projects</h2>
             <ul>
                 <li>Personal website (HTML, CSS, JavaScript)</li>
                 <li>Strategy game with Python</li>
-                <li>Mobile app for Android</li>
+                <li>Android mobile app</li>
+                <br>
+                <li><a href="https://eslef1998.github.io/riwi_portafolio/" target="_blank">Personal website (HTML, CSS)</a></li>
+                <br>
             </ul>
             <div class="image-container">
-                <img src="pr1.png" alt="6">
+                <img src="pr1.png" alt="Project">
             </div>
         </div>
 
         <div class="section" id="contact">
             <h2>Contact</h2>
-            <ul>
-                <li>Address: Carrera 125 #67-27 <br>Phone: 3027733759 <br>Email: esleyder98@gmail.com <br>Date of Birth: 06/12/1998 <br>ID: 1027891666</li>
-            </ul>
+            <p>Address: Carrera 125 #67-27<br>Phone: 3027733759<br>Email: esleyder98@gmail.com<br>Date of birth: 06/12/1998<br>ID: 1027891666</p>
 
             <div class="contact-form">
                 <form>
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required>
-
+                    
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" required></textarea>
-
+                    
                     <button type="submit">Send</button>
                 </form>
             </div>
         </div>
-
     </main>
 
     <footer>
